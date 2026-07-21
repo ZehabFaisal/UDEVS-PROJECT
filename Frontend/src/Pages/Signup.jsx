@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaUser, FaEnvelope, FaLock } from 'react-icons/fa';
-import { registerUser } from '../services/api';
 
 const Signup = () => {
   const navigate = useNavigate();
